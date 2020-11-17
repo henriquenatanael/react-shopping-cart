@@ -1,0 +1,60 @@
+#root {
+    margin: 30px auto;
+    width: 95%;
+    max-width: 600px;
+    position: relative;
+    background-color: #fff;
+}
+main {
+    padding: 20px 0;
+}
+header {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+button {
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 20px;
+    background-color: #333;
+    border: none;
+}
+button:hover {
+    background-color: #999;
+}
+.remove {
+    background-color: rgb(214, 60, 60);
+}
+.remove:hover {
+    background-color: rgb(231, 75, 75);
+}
+input, select {
+    padding: 10px 20px;
+    margin-right: 4px;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+}
+.box {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: block;
+    border: 1px solid #eee;
+}
+table {
+    width: 100%;
+}
+table td {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+table thead th {
+    padding: 8px;
+    text-align: left;
+    background-color: #eee;
+}
+footer {
+    text-align: center;
+}
